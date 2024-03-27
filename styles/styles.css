@@ -98,14 +98,14 @@ a {
 
 #hero-text {
     grid-column-start: 2;
-    grid-column-end: 7;
+    grid-column-end: 6;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 #hero-image {
-    grid-column-start: 7;
+    grid-column-start: 6;
     grid-column-end: 12;
 }
 
