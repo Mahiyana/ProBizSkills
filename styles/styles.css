@@ -32,6 +32,7 @@ p {
     color: #0C0C0C;
     font-size: 12px;
     font-family: "Open Sans";
+    margin: 0px;
 }
 
 a {
@@ -122,9 +123,12 @@ a {
 .topic-tags {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     column-gap: 8px;
     row-gap: 8px
+}
+
+.justify-center {
+    justify-content: center;
 }
 
 .topic-tag {
@@ -173,6 +177,7 @@ a {
 .about-section-text {
     padding: 0px 135px 0px 135px;
     display: flex;
+    gap: 16px;
     flex-direction: column;
     justify-content: center;
 }
@@ -203,7 +208,7 @@ a {
     text-align: center;
 }
 
-#about-numbers-grid {
+.twelve-columns-grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 16px; 
@@ -224,5 +229,44 @@ a {
 
 #about-numbers-section {
     padding: 64px 0px 64px 0px;
+    border-bottom: 1px solid #C7C7C7;
+}
+
+.courses-row {
+    grid-column-start: 2;
+    grid-column-end: 12;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 128px;
+}
+
+
+.image-with-description > img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
+
+.title_and_paragraph_and_tags{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.image-with-description {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.courses-list {
+    display: flex;
+    flex-direction: column;
+    gap: 96px;
+}
+
+#popular-courses-section {
+    padding: 128px 0px 128px 0px;
     border-bottom: 1px solid #C7C7C7;
 }
