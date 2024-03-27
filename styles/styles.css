@@ -211,7 +211,7 @@ a {
 
 #about-numbers {
     grid-column-start: 3;
-    grid-column-end: 10;
+    grid-column-end: 11;
     display: flex;
     justify-content: space-between;
     align-items: center;
