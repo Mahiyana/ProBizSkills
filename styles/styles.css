@@ -317,3 +317,31 @@ a {
     padding: 96px 0px 96px 0px;
     border-bottom: 1px solid #C7C7C7;  
 }
+
+.faq-grid-container {
+    grid-column-start: 3;
+    grid-column-end: 11;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+
+.faq-answer {
+    padding-top: 16px;
+}
+
+.faq-tile {
+    padding-bottom: 16px;
+    border-bottom: 1px solid #A6A6A6; 
+}
+
+#faq-section{
+    padding: 96px 0px 96px 0px;
+    border-bottom: 1px solid #C7C7C7;  
+}
