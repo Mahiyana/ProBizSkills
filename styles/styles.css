@@ -7,15 +7,22 @@ body {
 
 h2 {
     color: #0C0C0C;
-    height: 36px;
+    font-size: 36px;
     font-family: "Open Sans";
+    margin-top: 0px;
 }
 
 h4 {
     color: #0C0C0C;
-    height: 16px;
+    font-size: 16px;
     font-family: "Open Sans";
     font-weight: normal;
+}
+
+p {
+    color: #0C0C0C;
+    font-size: 12px;
+    font-family: "Open Sans";
 }
 
 .header-menu {
@@ -63,4 +70,52 @@ h4 {
     height: 12px;
     font-family: "Open Sans";
     font-weight: normal;
+}
+
+#hero-banner {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 16px;
+    padding: 64px 0px 64px 0px;
+    border-bottom: 1px solid #C7C7C7;
+  }
+
+
+#hero-text {
+    grid-column-start: 2;
+    grid-column-end: 7;
+}
+
+#hero-image {
+    grid-column-start: 7;
+    grid-column-end: 12;
+}
+
+#hero-image > img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+  }
+
+#hero-title {
+    margin-bottom: 16px;
+}
+
+.topic-tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 8px;
+    row-gap: 8px
+}
+.topic-tag {
+    background-color: #A7A6E5;
+    border-radius: 8px;
+    padding: 8px 16px 8px 16px;
+    font-size: 12px;
+    color: #0C0C0C;
+    font-size: 12px;
+    font-family: "Open Sans";
+    width: auto;
+    white-space: nowrap;
 }
