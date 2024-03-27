@@ -35,6 +35,10 @@ p {
     margin: 0px;
 }
 
+.big-p {
+    font-size: 16px;
+}
+
 a {
     color: #0C0C0C;
     font-size: 12px;
@@ -211,7 +215,7 @@ a {
 .twelve-columns-grid {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-gap: 16px; 
+    grid-gap: 16px;
 }
 
 #about-numbers {
@@ -273,4 +277,43 @@ a {
 #popular-courses-section {
     padding: 128px 0px 128px 0px;
     border-bottom: 1px solid #C7C7C7;
+}
+
+#testimony-tile-1{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+#testimony-tile-2{
+    grid-column-start: 6;
+    grid-column-end: 8;
+}
+
+#testimony-tile-3{
+    grid-column-start: 9;
+    grid-column-end: 11;
+}
+
+.testimony-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.testimony-image-text {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.testimony-image-text > img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
+}
+
+#testimonies-section{
+    padding: 96px 0px 96px 0px;
+    border-bottom: 1px solid #C7C7C7;  
 }
