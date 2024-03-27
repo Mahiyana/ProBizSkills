@@ -12,13 +12,20 @@ h2 {
     margin: 0px;
 }
 
+h3 {
+    color: #0C0C0C;
+    font-size: 24px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    margin: 0px;
+}
+
 h4 {
     color: #0C0C0C;
     font-size: 16px;
     font-family: "Open Sans";
     font-weight: normal;
     margin: 0px;
-
 }
 
 p {
@@ -182,4 +189,40 @@ a {
 
 .right-aligned {
     text-align: right;
+}
+
+.number_and_info > .number {
+    color: #0C0C0C;
+    font-size: 128px;
+    font-family: "Open Sans";
+    font-weight: 500;
+    margin: 0px;
+}
+
+.number_and_info > .info {
+    text-align: center;
+}
+
+#about-numbers-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 16px; 
+}
+
+#about-numbers {
+    grid-column-start: 3;
+    grid-column-end: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section_title > h2 {
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+#about-numbers-section {
+    padding: 64px 0px 64px 0px;
+    border-bottom: 1px solid #C7C7C7;
 }
