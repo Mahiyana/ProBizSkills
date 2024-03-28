@@ -350,7 +350,7 @@ a {
 #footer > * > * > * > * > h4 { color: #F8F8F8 }
 #footer > * > * > * > * > * > p { color: #F8F8F8 }
 #footer > * > * > * > * > * > p { font-size: 12px; }
-#footer > * > * > * > * > a { text-decoration-color: #F8F8F8 }
+#footer > * > * > * > * > a { text-decoration: none }
 
 #logotype_footer_menu {
     display: flex;
