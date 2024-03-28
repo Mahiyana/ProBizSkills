@@ -82,7 +82,7 @@ a {
 
 ::placeholder {
     color: #424242;
-    height: 12px;
+    height: 16px;
     font-family: "Open Sans";
     font-weight: normal;
     overflow: visible;
@@ -200,7 +200,7 @@ a {
     color: #0C0C0C;
     font-size: 128px;
     font-family: "Open Sans";
-    font-weight: 500;
+    font-weight: 600;
     margin: 0px;
 }
 
@@ -330,6 +330,7 @@ a {
 
 .faq-answer {
     padding-top: 16px;
+    padding-right: 128px;
 }
 
 .faq-tile {
