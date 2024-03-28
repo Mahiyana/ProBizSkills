@@ -349,6 +349,7 @@ a {
 #footer > * > p { color: #F8F8F8 }
 #footer > * > * > * > * > h4 { color: #F8F8F8 }
 #footer > * > * > * > * > * > p { color: #F8F8F8 }
+#footer > * > * > * > * > * > p { font-size: 12px; }
 #footer > * > * > * > * > a { text-decoration-color: #F8F8F8 }
 
 #logotype_footer_menu {
